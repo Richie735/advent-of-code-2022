@@ -10,7 +10,7 @@ with open("input02.in") as file:
 # 0-Loss | 3-Draw | 6-Win
 # score = shape + outcome
 
-# Dictionary
+# Scores Dictionary
 scores = {
                 # Game  Outcome     Score
     "A X":4,    # A X    Draw    (1 + 3) = 4
@@ -24,24 +24,36 @@ scores = {
     "C Z":6     # C Z    Draw    (3 + 3) = 6
 }
 
-# DESIRED OUTCOMES
-# Changed the values of the outcomes depending on the rules
-# X = LOSS, Y = DRAW, Z = WIN
-# (got values looking at table above)
-desired_outcomes = {
-    "A X":3, "A Y":4, "A Z":8, 
-    "B X":1, "B Y":5, "B Z":9, 
-    "C X":2, "C Y":6, "C Z":7 
-}
-
+# Comparing eache line of the guide with the Scores Dictionary
 final_score = 0
 for round in guide:
     final_score += scores[round]
 
-total_score_p2 = 0
-for round in guide:
-    total_score_p2 += desired_outcomes[round]
 
-# Getting the Answer
-print ("Answer to Day 02: \n part-1 => ", final_score,
-     "\n part-2 => ", total_score_p2)
+########################
+#        Part 2        #
+########################
+
+# Outcomes Dictionary
+outcome = {
+    "A X":3,    # X = LOSS
+    "A Y":4,    # Y = DRAW
+    "A Z":8,    # Z = WIN
+    "B X":1,    # X = LOSS
+    "B Y":5,    # Y = DRAW
+    "B Z":9,    # Z = WIN
+    "C X":2,    # X = LOSS
+    "C Y":6,    # Y = DRAW
+    "C Z":7     # Z = WIN
+}
+
+# Comparing eache line of the guide with the Outcomes Dictionary
+outcome_score = 0
+for round in guide:
+    outcome_score += outcome[round]
+
+
+########################
+#  Getting the Answer  #
+########################
+print ("Answer to Day 02: \n part-1 => ", final_score, "\n part-2 => ", outcome_score)

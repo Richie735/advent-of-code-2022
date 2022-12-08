@@ -34,5 +34,7 @@ for item in input:
         max_cal3 = count_cal
 
 
-# Getting the Answer
+########################
+#  Getting the Answer  #
+########################
 print ("Answer to Day 01: \n part-1 => ", max_cal, "\n part-2 => ", (max_cal+ max_cal2 + max_cal3))
