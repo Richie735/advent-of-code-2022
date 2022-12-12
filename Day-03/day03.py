@@ -50,4 +50,4 @@ for group in range(0, len(input), 3):
 ########################
 #  Getting the Answer  #
 ########################
-print ("Answer to Day 01: \n part-1 => ", totalPriority, "\n part-2 => ", totalPriority2)
+print ("Answer to Day 03: \n part-1 => ", totalPriority, "\n part-2 => ", totalPriority2)
