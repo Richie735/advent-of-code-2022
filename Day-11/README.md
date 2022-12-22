@@ -327,7 +327,7 @@ Worry levels are no longer divided by three after each item is inspected; you'll
 ---
 
 ```
-Answer to Day 10:
+Answer to Day 11:
 part-1 => 117640
 part-2 => 30616425600
 ```
