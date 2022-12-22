@@ -696,5 +696,5 @@ Simulate your complete series of motions on a larger rope with ten knots. How ma
 ```
 Answer to Day 09:
 part-1 =>  6522
-part-2 =>  
+part-2 =>  2717
 ```
