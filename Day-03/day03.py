@@ -1,7 +1,7 @@
 from string import ascii_letters
 
 # Getting the input parameters
-with open("input03.in") as file:
+with open("./Day-03/input03.in") as file:
     input = [i for i in file.read().strip().split("\n")]
 
 #print(input)

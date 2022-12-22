@@ -1,5 +1,5 @@
 # Getting the input parameters
-with open("input06.in") as file:
+with open("./Day-06/input06.in") as file:
     input = file.read()
 
 #print(input) 

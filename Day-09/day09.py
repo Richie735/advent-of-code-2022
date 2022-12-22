@@ -1,5 +1,5 @@
 # Getting the input parameters
-with open("input09.in") as file:
+with open("./Day-09/input09.in") as file:
     # store the input as a matrix
     input = file.read().strip().split("\n")
 

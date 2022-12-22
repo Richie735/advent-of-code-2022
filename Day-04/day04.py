@@ -1,5 +1,5 @@
 # Getting the input parameters
-with open("input04.in") as file:
+with open("./Day-04/input04.in") as file:
     input = [i for i in file.read().strip().split("\n")]
 
 # print(input)

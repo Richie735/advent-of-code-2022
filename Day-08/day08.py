@@ -1,5 +1,5 @@
 # Getting the input parameters
-with open("input08.in") as file:
+with open("./Day-08/input08.in") as file:
     # store the input as a matrix
     input = [line.strip() for line in file.readlines()]
 

@@ -1,5 +1,5 @@
 # Getting the input parameters
-with open("input05.in") as file:
+with open("./Day-05/input05.in") as file:
     # initial is the starting stacks of crates
     # procedure is the moves made
     initial, procedure = (i.splitlines() for i in file.read().strip('\n').split('\n\n'))
