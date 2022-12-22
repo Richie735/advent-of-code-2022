@@ -1,6 +1,5 @@
 # Getting the input parameters
 with open("./Day-10/input10.in") as file:
-    # store the input as a matrix
     input = file.read().strip().split("\n")
 
 # print(input)
